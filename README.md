@@ -113,6 +113,7 @@ Do type checking in a separate process, so webpack don't need to wait. **Signifi
 
 Works only with `ForkCheckerPlugin`:
 
+in `tsconfig.js`:
 ```js
 var ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
 
